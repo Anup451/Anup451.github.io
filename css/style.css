@@ -1,0 +1,150 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url(./partials/variables.css);
+
+@import url(./partials/global.css);
+
+.navbar-brand{
+    font-family: Roboto;
+    padding-left:200px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.site-banner{
+    background:url(./background12.png)no-repeat;
+    background-position: 0% 0%;
+    
+}
+
+.site-title {
+    padding-top:5%;
+    font-weight:500;
+    padding-left: 20%;
+
+}
+
+.site-title h3::after{
+    content:"";
+    height:2px;
+    width:18vw;
+    background:black;
+    display:inline-block;
+    margin-left: 5%;
+    transform:translateY(-10px);
+}
+
+.site-title h1{
+    font-size:60px;
+
+}
+
+.site-title h4{
+    font-size:20px;
+}
+
+.nav-item {
+    padding-right: 100px;
+    font-size: 22px;;
+}
+
+.nav-item.nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    
+    text-transform: uppercase;
+
+    padding:40px;
+    color:var(--title-color);
+
+}
+
+.nav-item.nav-link.active a{
+    background: var(--gradient-color);
+    --webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+
+}
+
+.nav-item.nav-link a:hiver{
+    background: var(--gradient-color);
+    --webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+
+}
+
+.about-area{
+    padding: 100px ;
+}
+
+.about-title h2>span{
+     display:block;
+     font:normal bold 35px/60px var(--roboto);
+     letter-spacing: 15px;
+     }
+
+.paragraph>p{
+
+    padding:10px 0px;
+        
+}     
+
+
+.services-area{
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.services{
+    background:rgba(248, 252, 253, 0.973) ;
+    margin: 50px;
+    transition:box-shadow 0.7s ease;
+
+}
+
+.services:hover{
+    box-shadow: var(--box-shadow);
+
+}
+
+.project-area{
+    padding-top:50px;
+    padding-left:50px;
+}
+
+.button-group button{
+    background:transparent;
+    border:none;
+    font:normal 500 16px/130px var(--roboto);
+    text-transform:uppercase;
+}
+
+.button-group button+button{
+    padding-left: 50px;
+}
+
+.our-project>.title h4{
+    font:normal 700 25px/12px var(--roboto);
+}
+
+.subscribe-us-area{
+    background:url(./messageme1.png)no-repeat;
+    padding-top:100px;
+    padding-bottom: 200px;
+    margin-left:800px;
+   
+
+}
+
+.subscribe-titleh4{
+    font:normal 700 30px/30px var(--roboto);
+    color:whitesmoke;
+    
+}
+
